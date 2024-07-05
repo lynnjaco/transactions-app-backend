@@ -1,9 +1,6 @@
 const express = require("express");
 const members = express.Router();
 const membersArray = require("../models/memberModel.js");
-const { nanoid } = require("nanoid");
-const generateId = () => nanoid();
-
 members.get("/", (req, res) => {
   res.json(membersArray);
 });
@@ -11,7 +8,7 @@ members.get("/", (req, res) => {
 // Create a household member
 members.post("/", (req, res) => {
   const newMember = {
-    id: generateId(),
+    id: `MN${membersArray.length + 1}`,
     ...req.body
   };
   membersArray.push(newMember);
@@ -19,10 +16,9 @@ members.post("/", (req, res) => {
 });
 
 // Show a specific household member
-// GET A SINGLE WORKOUT
 members.get("/:id", (req, res) => {
   const { id } = req.params;
-  const member = membersArray.find(el => el.id === Number(id));
+  const member = membersArray.find(el => el.id === id);
   if (member) {
     res.status(200).send(member)
   } else {
@@ -33,7 +29,7 @@ members.get("/:id", (req, res) => {
 // Update a household member
 members.put("/:id", (req, res) => {
     const { id } = req.params;
-    const memberIndex = membersArray.findIndex(member => member.id === Number(id));
+    const memberIndex = membersArray.findIndex(member => member.id === id);
 
     if (memberIndex === -1) {
         res.status(404).send({ error: `Member with ID: ${id} Not Found` });
@@ -46,7 +42,7 @@ members.put("/:id", (req, res) => {
 // Delete a household member
 members.delete("/:id", (req, res) => {
     const { id } = req.params;
-    const memberIndex = membersArray.findIndex(member => member.id === Numbers(id));
+    const memberIndex = membersArray.findIndex(member => member.id === id);
     if (memberIndex === -1) {
         res.status(404).send({ error: `Member with ID: ${id} Not Found` });
     } else {

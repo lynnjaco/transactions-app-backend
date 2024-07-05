@@ -1,7 +1,7 @@
 module.exports = [
     {
-        "id": 1,
-        "transactionMemberID": 10001,
+        "id": "TN1",
+        "transactionMemberID": "MN2",
         "transactionName": "Employment Pay",
         "transactionOrigin": "Amazon.com Inc.",
         "transactionType": "Debit",
@@ -11,8 +11,8 @@ module.exports = [
         "category": "Wages",
     },
     {
-        "id": 2,
-        "transactionMemberID": 10000,
+        "id": "TN2",
+        "transactionMemberID": "MN1",
         "transactionName": "Electric Utility Payment",
         "transactionOrigin": "PSEG",
         "transactionType": "Credit",
@@ -22,8 +22,8 @@ module.exports = [
         "category": "Home Expense",
     },
     {
-        "id": 3,
-        "transactionMemberID": 10002,
+        "id": "TN3",
+        "transactionMemberID": "MN3",
         "transactionName": "Employment Pay",
         "transactionOrigin": "New York Department of Transportation",
         "transactionType": "Debit",
@@ -33,8 +33,8 @@ module.exports = [
         "category": "Wages",
     },
     {
-        "id": 4,
-        "transactionMemberID": 10000,
+        "id": "TN4",
+        "transactionMemberID": "MN1",
         "transactionName": "Natural Gas Utility",
         "transactionOrigin": "Metro New York Gas",
         "transactionType": "Credit",
@@ -44,8 +44,8 @@ module.exports = [
         "category": "Home Expense",
     },
     {
-        "id": 5,
-        "transactionMemberID": 10000,
+        "id": "TN5",
+        "transactionMemberID": "MN1",
         "transactionName": "Rent",
         "transactionOrigin": "Skyview Lofts",
         "transactionType": "Credit",
@@ -55,8 +55,8 @@ module.exports = [
         "category": "Home Expense",
     },
     {
-        "id": 5,
-        "transactionMemberID": 10000,
+        "id": "TN6",
+        "transactionMemberID": "MN1",
         "transactionName": "Groceries",
         "transactionOrigin": "Whole Foods",
         "transactionType": "Credit",
@@ -66,8 +66,8 @@ module.exports = [
         "category": "Living Expense",
     },
     {
-        "id": 6,
-        "transactionMemberID": 10002,
+        "id": "TN7",
+        "transactionMemberID": "MN3",
         "transactionName": "Auto Insurance Payment",
         "transactionOrigin": "GEICO",
         "transactionType": "Credit",
@@ -77,8 +77,8 @@ module.exports = [
         "category": "Auto Expense",
     },
     {
-        "id": 7,
-        "transactionMemberID": 10001,
+        "id": "TN8",
+        "transactionMemberID": "MN2",
         "transactionName": "Auto Insurance Payment",
         "transactionOrigin": "Progressive",
         "transactionType": "Credit",
@@ -88,8 +88,8 @@ module.exports = [
         "category": "Auto Expense",
     },
     {
-        "id": 8,
-        "transactionMemberID": 10002,
+        "id": "TN9",
+        "transactionMemberID": "MN3",
         "transactionName": "Auto Lease Payment",
         "transactionOrigin": "Audi Financial Services",
         "transactionType": "Credit",
@@ -99,8 +99,8 @@ module.exports = [
         "category": "Auto Expense",
     },
     {
-        "id": 9,
-        "transactionMemberID": 10001,
+        "id": "TN10",
+        "transactionMemberID": "MN2",
         "transactionName": "Gym Membership Fee",
         "transactionOrigin": "L.A. Fitness",
         "transactionType": "Credit",
