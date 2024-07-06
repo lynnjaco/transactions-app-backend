@@ -20,10 +20,10 @@ transactions.post("/", (req, res) => {
 transactions.get("/member/:memberId", (req, res) => {
     const { memberId } = req.params;
     const transactionIndex = transactionsArray.find(transaction => transaction.transactionMemberID === memberId);
+    const memberTransactions = transactionsArray.filter(transaction => transaction.transactionMemberID === memberId);
     if (!transactionIndex) {
         res.status(404).send({ error: `Transaction ${memberId} Not Found` });
     } else {
-        const memberTransactions = transactionsArray.filter(transaction => transaction.transactionMemberId === memberId);
         res.status(200).send(memberTransactions);
     }
 });
