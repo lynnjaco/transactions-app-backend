@@ -62,6 +62,7 @@ transactions.delete("/:id", (req, res) => {
 
 // Get all transactions
 transactions.get("/", (req, res) => {
+    console.log("Index Route");
     res.status(200).send(transactionsArray);
 });
 
