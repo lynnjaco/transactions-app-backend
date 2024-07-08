@@ -19,7 +19,7 @@ module.exports = [
         "transactionDate": "06-01-2024",
         "frequency": "monthly",
         "amountInCents": 25000,
-        "category": "Home Expense",
+        "category": "Home",
     },
     {
         "id": "TN3",
@@ -41,7 +41,7 @@ module.exports = [
         "transactionDate": "06-22-2024",
         "frequency": "monthly",
         "amountInCents": 9829,
-        "category": "Home Expense",
+        "category": "Home",
     },
     {
         "id": "TN5",
@@ -52,7 +52,7 @@ module.exports = [
         "transactionDate": "06-22-2024",
         "frequency": "monthly",
         "amountInCents": 9829,
-        "category": "Home Expense",
+        "category": "Home",
     },
     {
         "id": "TN6",
@@ -74,7 +74,7 @@ module.exports = [
         "transactionDate": "06-21-2024",
         "frequency": "monthly",
         "amountInCents": 28339,
-        "category": "Auto Expense",
+        "category": "Auto",
     },
     {
         "id": "TN8",
@@ -85,7 +85,7 @@ module.exports = [
         "transactionDate": "06-14-2024",
         "frequency": "monthly",
         "amountInCents": 7629,
-        "category": "Auto Expense",
+        "category": "Auto",
     },
     {
         "id": "TN9",
@@ -96,7 +96,7 @@ module.exports = [
         "transactionDate": "06-17-2024",
         "frequency": "monthly",
         "amountInCents": 68738,
-        "category": "Auto Expense",
+        "category": "Auto",
     },
     {
         "id": "TN10",
@@ -140,7 +140,7 @@ module.exports = [
         "transactionDate": "06-04-2024",
         "frequency": "monthly",
         "amountInCents": 5052,
-        "category": "Home Expense"
+        "category": "Home"
       },
       {
         "id": "TN14",
@@ -195,7 +195,7 @@ module.exports = [
         "transactionDate": "06-10-2024",
         "frequency": "monthly",
         "amountInCents": 4573,
-        "category": "Home Expense"
+        "category": "Home"
       },
       {
         "id": "TN19",
@@ -228,7 +228,7 @@ module.exports = [
         "transactionDate": "06-13-2024",
         "frequency": "monthly",
         "amountInCents": 6420,
-        "category": "Home Expense"
+        "category": "Home"
       },
       {
         "id": "TN22",
@@ -261,7 +261,7 @@ module.exports = [
         "transactionDate": "06-17-2024",
         "frequency": "monthly",
         "amountInCents": 12000,
-        "category": "Home Expense"
+        "category": "Home"
       },
       {
         "id": "TN25",
@@ -294,7 +294,7 @@ module.exports = [
         "transactionDate": "06-20-2024",
         "frequency": "weekly",
         "amountInCents": 1500,
-        "category": "Home Expense"
+        "category": "Home"
       },
       {
         "id": "TN28",
@@ -327,7 +327,7 @@ module.exports = [
         "transactionDate": "06-23-2024",
         "frequency": "monthly",
         "amountInCents": 3000,
-        "category": "Home Expense"
+        "category": "Home"
       },
       {
         "id": "TN31",
@@ -360,7 +360,7 @@ module.exports = [
         "transactionDate": "06-26-2024",
         "frequency": "monthly",
         "amountInCents": 7500,
-        "category": "Home Expense"
+        "category": "Home"
       },
       {
         "id": "TN34",
@@ -415,7 +415,7 @@ module.exports = [
         "transactionDate": "06-11-2024",
         "frequency": "one-time",
         "amountInCents": 30340,
-        "category": "Home Expense"
+        "category": "Home"
       },
       {
         "id": "TN39",
@@ -492,7 +492,7 @@ module.exports = [
         "transactionDate": "06-01-2024",
         "frequency": "monthly",
         "amountInCents": 7500,
-        "category": "Home Expense"
+        "category": "Home"
       },
       {
         "id": "TN46",
@@ -525,7 +525,7 @@ module.exports = [
         "transactionDate": "06-11-2024",
         "frequency": "monthly",
         "amountInCents": 7500,
-        "category": "Home Expense"
+        "category": "Home"
       },
       {
         "id": "TN53",
@@ -1053,6 +1053,6 @@ module.exports = [
         "transactionDate": "06-25-2024",
         "frequency": "one-time",
         "amountInCents": 18735,
-        "category": "Home Expense"
+        "category": "Home"
       } 
 ]
