@@ -1,6 +1,8 @@
 const express = require("express");
 const transactions = express.Router();
 const transactionsArray = require("../models/transactionModel.js");
+const { nanoid } = require("nanoid");
+const ID = nanoid();
 
 transactions.get("/", (req, res) => {
     res.json(transactionsArray);
@@ -9,7 +11,7 @@ transactions.get("/", (req, res) => {
 // Create a new transaction
 transactions.post("/", (req, res) => {
     const newTransaction = {
-        id: `TN${transactionsArray.length + 1}`, 
+        id: `TN${ID}`, 
         ...req.body
     };
     transactionsArray.push(newTransaction);
@@ -70,6 +72,7 @@ transactions.get("/", (req, res) => {
 transactions.get("/:id", (req, res) => {
     const { id } = req.params;
     const transaction = transactionsArray.find(el => el.id === id);
+    console.log("Success")
     if (transaction) {
       res.status(200).send(transaction)
     } else {

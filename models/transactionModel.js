@@ -51,7 +51,7 @@ module.exports = [
         "transactionType": "Debit",
         "transactionDate": "06-22-2024",
         "frequency": "monthly",
-        "amountInCents": 9829,
+        "amountInCents": 275000,
         "category": "Home",
     },
     {
@@ -63,7 +63,7 @@ module.exports = [
         "transactionDate": "06-05-2024",
         "frequency": "weekly",
         "amountInCents": 15500,
-        "category": "Living Expense",
+        "category": "Home",
     },
     {
         "id": "TN7",
@@ -79,7 +79,7 @@ module.exports = [
     {
         "id": "TN8",
         "transactionMemberID": "MN2",
-        "transactionName": "Auto Insurance Payment",
+        "transactionName": "Auto Insurance Premium",
         "transactionOrigin": "Progressive",
         "transactionType": "Debit",
         "transactionDate": "06-14-2024",
@@ -528,7 +528,7 @@ module.exports = [
         "category": "Home"
       },
       {
-        "id": "TN53",
+        "id": "TN49",
         "transactionMemberID": "MN2",
         "transactionName": "Stock Dividend",
         "transactionOrigin": "Apple Inc.",
@@ -539,7 +539,7 @@ module.exports = [
         "category": "Investment"
       },
       {
-        "id": "TN54",
+        "id": "TN50",
         "transactionMemberID": "MN3",
         "transactionName": "Bond Interest",
         "transactionOrigin": "US Treasury",
@@ -550,7 +550,7 @@ module.exports = [
         "category": "Investment"
       },
       {
-        "id": "TN55",
+        "id": "TN51",
         "transactionMemberID": "MN2",
         "transactionName": "Real Estate Investment",
         "transactionOrigin": "Realty Income Corp.",
@@ -561,7 +561,7 @@ module.exports = [
         "category": "Investment"
       },
       {
-        "id": "TN56",
+        "id": "TN52",
         "transactionMemberID": "MN2",
         "transactionName": "Uber Ride",
         "transactionOrigin": "Uber",
@@ -572,7 +572,7 @@ module.exports = [
         "category": "Travel"
       },
       {
-        "id": "TN57",
+        "id": "TN53",
         "transactionMemberID": "MN3",
         "transactionName": "Lyft Ride",
         "transactionOrigin": "Lyft",
@@ -583,7 +583,7 @@ module.exports = [
         "category": "Travel"
       },
       {
-        "id": "TN58",
+        "id": "TN54",
         "transactionMemberID": "MN2",
         "transactionName": "Uber Ride",
         "transactionOrigin": "Uber",
@@ -594,7 +594,7 @@ module.exports = [
         "category": "Travel"
       },
       {
-        "id": "TN59",
+        "id": "TN55",
         "transactionMemberID": "MN3",
         "transactionName": "Lyft Ride",
         "transactionOrigin": "Lyft",
@@ -605,7 +605,7 @@ module.exports = [
         "category": "Travel"
       },
       {
-        "id": "TN60",
+        "id": "TN56",
         "transactionMemberID": "MN2",
         "transactionName": "Uber Ride",
         "transactionOrigin": "Uber",
@@ -616,7 +616,7 @@ module.exports = [
         "category": "Travel"
       },
       {
-        "id": "TN61",
+        "id": "TN57",
         "transactionMemberID": "MN3",
         "transactionName": "Lyft Ride",
         "transactionOrigin": "Lyft",
@@ -627,7 +627,7 @@ module.exports = [
         "category": "Travel"
       },
       {
-        "id": "TN62",
+        "id": "TN58",
         "transactionMemberID": "MN2",
         "transactionName": "Uber Ride",
         "transactionOrigin": "Uber",
@@ -638,7 +638,7 @@ module.exports = [
         "category": "Travel"
       },
       {
-        "id": "TN63",
+        "id": "TN59",
         "transactionMemberID": "MN3",
         "transactionName": "Lyft Ride",
         "transactionOrigin": "Lyft",
@@ -649,7 +649,7 @@ module.exports = [
         "category": "Travel"
       },
       {
-        "id": "TN64",
+        "id": "TN60",
         "transactionMemberID": "MN2",
         "transactionName": "Uber Ride",
         "transactionOrigin": "Uber",
@@ -660,7 +660,7 @@ module.exports = [
         "category": "Travel"
       },
       {
-        "id": "TN65",
+        "id": "TN61",
         "transactionMemberID": "MN3",
         "transactionName": "Lyft Ride",
         "transactionOrigin": "Lyft",
@@ -671,7 +671,7 @@ module.exports = [
         "category": "Travel"
       },
       {
-        "id": "TN66",
+        "id": "TN62",
         "transactionMemberID": "MN2",
         "transactionName": "Coffee",
         "transactionOrigin": "Starbucks",
@@ -682,7 +682,7 @@ module.exports = [
         "category": "Food"
       },
       {
-        "id": "TN67",
+        "id": "TN63",
         "transactionMemberID": "MN2",
         "transactionName": "Coffee",
         "transactionOrigin": "Starbucks",
@@ -693,7 +693,7 @@ module.exports = [
         "category": "Food"
       },
       {
-        "id": "TN68",
+        "id": "TN64",
         "transactionMemberID": "MN2",
         "transactionName": "Coffee",
         "transactionOrigin": "Starbucks",
@@ -704,7 +704,7 @@ module.exports = [
         "category": "Food"
       },
       {
-        "id": "TN69",
+        "id": "TN65",
         "transactionMemberID": "MN2",
         "transactionName": "Coffee",
         "transactionOrigin": "Starbucks",
@@ -715,7 +715,7 @@ module.exports = [
         "category": "Food"
       },
       {
-        "id": "TN70",
+        "id": "TN66",
         "transactionMemberID": "MN2",
         "transactionName": "Coffee",
         "transactionOrigin": "Starbucks",
@@ -726,7 +726,7 @@ module.exports = [
         "category": "Food"
       },
       {
-        "id": "TN71",
+        "id": "TN67",
         "transactionMemberID": "MN2",
         "transactionName": "Coffee",
         "transactionOrigin": "Starbucks",
@@ -737,7 +737,7 @@ module.exports = [
         "category": "Food"
       },
       {
-        "id": "TN72",
+        "id": "TN68",
         "transactionMemberID": "MN2",
         "transactionName": "Coffee",
         "transactionOrigin": "Starbucks",
@@ -748,7 +748,7 @@ module.exports = [
         "category": "Food"
       },
       {
-        "id": "TN73",
+        "id": "TN69",
         "transactionMemberID": "MN2",
         "transactionName": "Coffee",
         "transactionOrigin": "Starbucks",
@@ -759,7 +759,7 @@ module.exports = [
         "category": "Food"
       },
       {
-        "id": "TN74",
+        "id": "TN70",
         "transactionMemberID": "MN2",
         "transactionName": "Coffee",
         "transactionOrigin": "Starbucks",
@@ -770,7 +770,7 @@ module.exports = [
         "category": "Food"
       },
       {
-        "id": "TN75",
+        "id": "TN71",
         "transactionMemberID": "MN2",
         "transactionName": "Coffee",
         "transactionOrigin": "Starbucks",
@@ -781,7 +781,7 @@ module.exports = [
         "category": "Food"
       },
       {
-        "id": "TN76",
+        "id": "TN72",
         "transactionMemberID": "MN2",
         "transactionName": "Coffee",
         "transactionOrigin": "Starbucks",
@@ -792,7 +792,7 @@ module.exports = [
         "category": "Food"
       },
       {
-        "id": "TN77",
+        "id": "TN73",
         "transactionMemberID": "MN2",
         "transactionName": "Coffee",
         "transactionOrigin": "Starbucks",
@@ -803,7 +803,7 @@ module.exports = [
         "category": "Food"
       },
       {
-        "id": "TN78",
+        "id": "TN74",
         "transactionMemberID": "MN2",
         "transactionName": "Coffee",
         "transactionOrigin": "Starbucks",
@@ -814,7 +814,7 @@ module.exports = [
         "category": "Food"
       },
       {
-        "id": "TN79",
+        "id": "TN75",
         "transactionMemberID": "MN2",
         "transactionName": "Coffee",
         "transactionOrigin": "Starbucks",
@@ -825,7 +825,7 @@ module.exports = [
         "category": "Food"
       },
       {
-        "id": "TN80",
+        "id": "TN76",
         "transactionMemberID": "MN2",
         "transactionName": "Coffee",
         "transactionOrigin": "Starbucks",
@@ -836,7 +836,7 @@ module.exports = [
         "category": "Food"
       },
       {
-        "id": "TN81",
+        "id": "TN77",
         "transactionMemberID": "MN3",
         "transactionName": "Coffee",
         "transactionOrigin": "Dunkin' Donuts",
@@ -847,7 +847,7 @@ module.exports = [
         "category": "Food"
       },
       {
-        "id": "TN82",
+        "id": "TN78",
         "transactionMemberID": "MN3",
         "transactionName": "Coffee",
         "transactionOrigin": "Dunkin' Donuts",
@@ -858,7 +858,7 @@ module.exports = [
         "category": "Food"
       },
       {
-        "id": "TN83",
+        "id": "TN79",
         "transactionMemberID": "MN3",
         "transactionName": "Coffee",
         "transactionOrigin": "Dunkin' Donuts",
@@ -869,7 +869,7 @@ module.exports = [
         "category": "Food"
       },
       {
-        "id": "TN84",
+        "id": "TN80",
         "transactionMemberID": "MN3",
         "transactionName": "Coffee",
         "transactionOrigin": "Dunkin' Donuts",
@@ -880,7 +880,7 @@ module.exports = [
         "category": "Food"
       },
       {
-        "id": "TN85",
+        "id": "TN81",
         "transactionMemberID": "MN3",
         "transactionName": "Coffee",
         "transactionOrigin": "Dunkin' Donuts",
@@ -891,7 +891,7 @@ module.exports = [
         "category": "Food"
       },
       {
-        "id": "TN86",
+        "id": "TN82",
         "transactionMemberID": "MN3",
         "transactionName": "Coffee",
         "transactionOrigin": "Dunkin' Donuts",
@@ -902,7 +902,7 @@ module.exports = [
         "category": "Food"
       },
       {
-        "id": "TN87",
+        "id": "TN83",
         "transactionMemberID": "MN3",
         "transactionName": "Coffee",
         "transactionOrigin": "Dunkin' Donuts",
@@ -913,7 +913,7 @@ module.exports = [
         "category": "Food"
       },
       {
-        "id": "TN88",
+        "id": "TN84",
         "transactionMemberID": "MN3",
         "transactionName": "Coffee",
         "transactionOrigin": "Dunkin' Donuts",
@@ -924,7 +924,7 @@ module.exports = [
         "category": "Food"
       },
       {
-        "id": "TN89",
+        "id": "TN85",
         "transactionMemberID": "MN2",
         "transactionName": "Amazon Order",
         "transactionOrigin": "Amazon",
@@ -935,7 +935,7 @@ module.exports = [
         "category": "Shopping"
       },
       {
-        "id": "TN90",
+        "id": "TN86",
         "transactionMemberID": "MN3",
         "transactionName": "Amazon Order",
         "transactionOrigin": "Amazon",
@@ -946,7 +946,7 @@ module.exports = [
         "category": "Shopping"
       },
       {
-        "id": "TN91",
+        "id": "TN87",
         "transactionMemberID": "MN2",
         "transactionName": "Amazon Order",
         "transactionOrigin": "Amazon",
@@ -957,7 +957,7 @@ module.exports = [
         "category": "Shopping"
       },
       {
-        "id": "TN92",
+        "id": "TN88",
         "transactionMemberID": "MN3",
         "transactionName": "Amazon Order",
         "transactionOrigin": "Amazon",
@@ -968,7 +968,7 @@ module.exports = [
         "category": "Shopping"
       },
       {
-        "id": "TN93",
+        "id": "TN89",
         "transactionMemberID": "MN2",
         "transactionName": "Amazon Order",
         "transactionOrigin": "Amazon",
@@ -979,7 +979,7 @@ module.exports = [
         "category": "Shopping"
       },
       {
-        "id": "TN94",
+        "id": "TN90",
         "transactionMemberID": "MN3",
         "transactionName": "Amazon Order",
         "transactionOrigin": "Amazon",
@@ -990,7 +990,7 @@ module.exports = [
         "category": "Shopping"
       },
       {
-        "id": "TN95",
+        "id": "TN91",
         "transactionMemberID": "MN2",
         "transactionName": "Amazon Order",
         "transactionOrigin": "Amazon",
@@ -1001,7 +1001,7 @@ module.exports = [
         "category": "Shopping"
       },
       {
-        "id": "TN96",
+        "id": "TN92",
         "transactionMemberID": "MN3",
         "transactionName": "Amazon Order",
         "transactionOrigin": "Amazon",
@@ -1012,7 +1012,7 @@ module.exports = [
         "category": "Shopping"
       },
       {
-        "id": "TN97",
+        "id": "TN93",
         "transactionMemberID": "MN2",
         "transactionName": "Amazon Order",
         "transactionOrigin": "Amazon",
@@ -1023,7 +1023,7 @@ module.exports = [
         "category": "Shopping"
       },
       {
-        "id": "TN98",
+        "id": "TN94",
         "transactionMemberID": "MN3",
         "transactionName": "Amazon Order",
         "transactionOrigin": "Amazon",
@@ -1034,7 +1034,7 @@ module.exports = [
         "category": "Shopping"
       },
       {
-        "id": "TN99",
+        "id": "TN95",
         "transactionMemberID": "MN2",
         "transactionName": "Pet Insurance",
         "transactionOrigin": "PetSmart",
@@ -1045,7 +1045,7 @@ module.exports = [
         "category": "Other"
       },
       {
-        "id": "TN100",
+        "id": "TN96",
         "transactionMemberID": "MN3",
         "transactionName": "Cellular Service",
         "transactionOrigin": "AT&T",
@@ -1054,5 +1054,16 @@ module.exports = [
         "frequency": "one-time",
         "amountInCents": 18735,
         "category": "Home"
+      },
+      {
+        "id": "TN97",
+        "transactionMemberID": "MN2",
+        "transactionName": "Purchase Refund",
+        "transactionOrigin": "Costco Wholesale Club",
+        "transactionType": "Credit",
+        "transactionDate": "06-02-2024",
+        "frequency": "one-time",
+        "amountInCents": 9309,
+        "category": "Other"
       } 
 ]
