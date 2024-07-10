@@ -1,8 +1,7 @@
+const { nanoid } = require("nanoid");
 const express = require("express");
 const transactions = express.Router();
 const transactionsArray = require("../models/transactionModel.js");
-const { nanoid } = require("nanoid");
-const ID = nanoid();
 
 transactions.get("/", (req, res) => {
     res.json(transactionsArray);
@@ -11,7 +10,7 @@ transactions.get("/", (req, res) => {
 // Create a new transaction
 transactions.post("/", (req, res) => {
     const newTransaction = {
-        id: `TN${ID}`, 
+        id: `TN${nanoid(4)}}`, 
         ...req.body
     };
     transactionsArray.push(newTransaction);
